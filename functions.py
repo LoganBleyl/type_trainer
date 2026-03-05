@@ -1,7 +1,7 @@
 import random
 import datetime
 import time
-import sentences
+from sentences import sentences
 
 def calculate_accuracy(original, user_input):
     correct_chars = 0
